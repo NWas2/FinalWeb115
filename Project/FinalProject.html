@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>WEB-115 Final Project</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="projectJS.js" defer></script>  
+</head>
+<body>
+    <header>
+        <h1>Perfectly Portioned Fitness</h1>
+        <h2>Build Your Meal Plan</h2>
+        <p>Najya Washington | WEB-115.0001</p>
+    </header>
+
+    <main>
+        <form id="MealPlan">
+            <fieldset>
+                <legend>Account Information</legend>
+                <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required><br>
+                <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br>
+                <label for="goal">Goal for the Week:</label>
+                    <textarea id="goal" name="goal" rows="4" cols="50"></textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend>Meal Plan</legend>
+                <h3>What I ate in a day:</h3>
+                <!--Breakfast-->
+                <h4>Breakfast:</h4>
+                    <textarea id="breakfast" name="breakfast" rows="7" cols="30" placeholder="Enter meal details here..."></textarea><br>
+                <!--Snack-->
+                <h4>Snack:</h4>
+                    <textarea id="snack1" name="snack1" rows="7" cols="30" placeholder="Enter meal details here..."></textarea><br>
+                <!--Lunch-->
+                <h4>Lunch:</h4>
+                    <textarea id="lunch" name="lunch" rows="7" cols="30" placeholder="Enter meal details here..."></textarea><br>
+                <!--Snack-->
+                <h4>Snack:</h4>
+                    <textarea id="snack2" name="snack2" rows="7" cols="30" placeholder="Enter meal details here..."></textarea><br>
+                <!--Dinner-->
+                <h4>Dinner</h4>
+                    <textarea id="dinner" name="dinner" rows="7" cols="30" placeholder="Enter meal details here..."></textarea><br>
+            </fieldset>
+
+            <button type="button" onclick="generateMealPlan()">Generate Meal Plan</button>
+            <button type="button" onclick="clearForm()">Clear</button>
+        </form>
+    </main>
+</body>
+    
+</html>

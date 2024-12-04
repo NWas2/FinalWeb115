@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #fb6f92;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+form {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #d5d3e5;
+    border-radius: 5px;
+}
+
+fieldset {
+    margin-bottom: 15px;
+    border: 2px solid #e5e4f0;
+}
+
+legend {
+    font-weight: bold;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff8fab;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #fb6f92;
+}
